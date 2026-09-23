@@ -1,23 +1,85 @@
 aid: d-edge
+
 name: D-EDGE Hospitality Solutions
-description: 'D-EDGE Hospitality Solutions is a company surfaced via the API Evangelist harvest backlog
-  (source: travel) and added to the network as a stub for full-pipeline profiling.'
+
+description: D-EDGE Hospitality Solutions provides a comprehensive suite of hotel technology and marketing solutions, including central reservation
+  systems, channel management, booking engine, data intelligence, and digital marketing tools. Their platform helps hotels increase direct bookings,
+  improve revenue management, and enhance guest experiences across multiple channels worldwide.
+
 url: https://raw.githubusercontent.com/api-evangelist/d-edge/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:travel
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-23 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-23'
+
 modified: '2026-09-23'
+
 tags:
+- Hospitality
+- Technology
+- Marketing
+- SaaS
 - Company
-apis: []
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: WellKnown
+  url: well-known/d-edge-well-known.yml
+- type: Hosts
+  url: hosts/d-edge-hosts.yml
+- type: Vendors
+  url: vendors/d-edge-vendors.yml
+- type: SDKs
+  url: packages/d-edge-packages.yml
+- type: Packages
+  url: packages/d-edge-packages.yml
+- type: PrivacyPolicy
+  url: https://www.d-edge.com/privacy-policy/
+- type: Pricing
+  url: https://www.d-edge.com/product/price-monitoring/
+- type: Documentation
+  url: https://docs.d-edge.com/
+- type: GitHubOrganization
+  url: https://github.com/d-edge
+- type: DomainSecurity
+  url: security/d-edge-domain-security.yml
 - type: Website
-  url: https://d-edge.com/
+  url: https://www.d-edge.com/
+- type: Blog
+  url: https://www.d-edge.com/blog
+- type: Support
+  url: https://www.d-edge.com/contact
+
+apis:
+- name: D-EDGE API
+  description: API documentation is behind a login wall; no public contract discovered.
+  humanURL: https://www.d-edge.com/product/price-monitoring/
+  baseURL: null
+  aid: d-edge:d-edge-api
+
+x-coverage:
+  state: unreadable
+  reason: js-rendered-docs
+  detail: API documentation requires login, returning a 302 redirect to a login page.
+  evidence:
+  - url: https://docs.d-edge.com
+    status: 302
+  checked: 2026-09-23
+x-enrichment:
+  date: '2026-09-23'
+  status: enriched
+  artifacts_added: 8
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local

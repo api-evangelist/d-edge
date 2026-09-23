@@ -1,0 +1,20 @@
+generated: 2026-09-23
+method: searched
+source: https://registry.npmjs.org/-/v1/search?text=d-edge&size=5
+packages:
+- name: '@gentour/dedge-support-agent'
+  registry: npm
+  url: https://www.npmjs.com/package/@gentour/dedge-support-agent
+  language: JavaScript
+  official: false
+  version: 1.4.1
+  published: '2026-08-06'
+  ownership_audit: 'registry metadata names neither the provider''s domain nor its GitHub org: official downgraded (harvest-packages.py --audit)'
+- name: '@dedgewebstudio/booking-state-manager'
+  registry: npm
+  url: https://www.npmjs.com/package/@dedgewebstudio/booking-state-manager
+  language: JavaScript
+  official: true
+  version: 0.5.164
+  published: '2024-01-29'
+  ownership_audit: metadata names d-edge.com
