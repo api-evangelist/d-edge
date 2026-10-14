@@ -1,8 +1,20 @@
 generated: '2026-10-14'
 method: searched
 checked:
+- apaleo/integrations/apaleo-integration-edges.yml
+- https://integrations-api.siteminder.com/public/partners/all?lang=en
 - https://storage.googleapis.com/tcfac/additional-consent-providers.csv
-marketplace_apps: []
+- https://www.d-edge.com/connectivity/
+- mews-com/integrations/mews-com-integration-edges.yml
+marketplace_apps:
+- marketplace: own
+  channel: partner-built
+  app: d-edge
+  url: https://www.d-edge.com/connectivity/
+  app_count: null
+  adapter: sweep-hospitality.py:unreadable
+  listed: 0
+  status: not-machine-readable (HTTP 200; no connectivity list; the path resolves to an image)
 edges:
 - partner_name: Google Ad Tech Providers
   partner: null
@@ -27,3 +39,54 @@ edges:
     detected: '2026-10-14'
   detected_by: sweep-adtech.py
   detected: '2026-10-14'
+- partner_name: SiteMinder
+  partner: siteminder
+  partner_match: aggregator
+  type: coverage
+  channel: partner-built
+  relationship: connector-coverage
+  direction: partner-built
+  evidence: https://integrations-api.siteminder.com/public/partners/all?lang=en
+  listed_as: D-EDGE
+  detected_by: sweep-hospitality.py
+  detected: '2026-10-14'
+  categories:
+  - direct_booking
+  - ota
+- partner_name: apaleo (own)
+  partner: apaleo
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://store.apaleo.com/apps/d-edge
+  mirror_of: apaleo/integrations/apaleo-integration-edges.yml
+  apps:
+  - D-EDGE
+  listing_count: 1
+  detected: '2026-10-14'
+  detected_by: mirror-platform-listings.py
+  category: Booking engines
+- partner_name: Mews (own)
+  partner: mews-com
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://www.mews.com/en/products/marketplace/d-edge-digital-media
+  mirror_of: mews-com/integrations/mews-com-integration-edges.yml
+  apps:
+  - D-EDGE Digital Media
+  - D-EDGE
+  listing_count: 2
+  detected: '2026-10-14'
+  detected_by: mirror-platform-listings.py
+source:
+- https://integrations-api.siteminder.com/public/partners/all?lang=en
+- https://www.d-edge.com/connectivity/

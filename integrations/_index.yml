@@ -26,3 +26,39 @@
     detected: '2026-10-14'
   status: not-a-workflow
   arazzo: null
+- slug: d-edge-siteminder
+  label: SiteMinder
+  partner: siteminder
+  partner_name: SiteMinder
+  type: coverage
+  channel: partner-built
+  evidence: https://integrations-api.siteminder.com/public/partners/all?lang=en
+  source: edge
+  relationship: connector-coverage
+  status: not-a-workflow
+  arazzo: null
+- slug: d-edge-apaleo-own
+  label: apaleo (own)
+  partner: apaleo
+  partner_name: apaleo (own)
+  category: Booking engines
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://store.apaleo.com/apps/d-edge
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: d-edge-mews-own
+  label: Mews (own)
+  partner: mews-com
+  partner_name: Mews (own)
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://www.mews.com/en/products/marketplace/d-edge-digital-media
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
