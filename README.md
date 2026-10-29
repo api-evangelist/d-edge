@@ -64,5 +64,89 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-D-EDGE Hospitality Solutions is a company surfaced via the API Evangelist harvest backlog (source: travel) and added to the network as a stub for full-pipeline profiling.
-- https://d-edge.com/
+D-EDGE Hospitality Solutions provides a comprehensive suite of hotel technology and marketing solutions, including central reservation systems, channel management, booking engine, data intelligence, and digital marketing tools. Their platform helps hotels increase direct bookings, improve revenue management, and enhance guest experiences across multiple channels worldwide.
+
+**Areas:** Hospitality · Technology · Marketing · Software-as-a-Service · Company
+
+## D-EDGE Hospitality Solutions on APIs.io
+
+Everything profiled for D-EDGE Hospitality Solutions is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/d-edge/](https://apis.io/providers/d-edge/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [D-EDGE API](https://apis.io/apis/d-edge/d-edge-api/) — API documentation is behind a login wall; no public contract discovered.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [D Edge Domain Security](https://apis.io/security/d-edge/d-edge-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.d-edge.com/)
+- [Documentation](https://docs.d-edge.com/)
+- [Pricing](https://www.d-edge.com/product/price-monitoring/)
+- [Support](https://www.d-edge.com/contact)
+- [Blog](https://www.d-edge.com/blog)
+- [Privacy policy](https://www.d-edge.com/privacy-policy/)
+- [GitHub](https://github.com/d-edge)
+
+## API Evangelist rating
+
+**Kin Score 15.1** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 53.6 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 21.1 |
+
+**Agent readiness 18.7** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+
+**Regulatory alignment 15.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/d-edge/](https://apis.io/providers/d-edge/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for D-EDGE Hospitality Solutions: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/d-edge/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
